@@ -52,7 +52,7 @@ source-repository this
 library
   exposed-modules: Text.Regex
 
-  build-depends: base        >= 4.3 && < 4.16
+  build-depends: base        >= 4.3 && < 4.17
                , regex-base  == 0.94.*
                , regex-posix == 0.96.*
                , array       >= 0.3 && < 0.6
